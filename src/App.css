@@ -1,5 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+
 .App {
   text-align: center;
+}
+
+html {
+  background-color: #efe2ba;
 }
 
 .App-logo {
@@ -19,8 +25,37 @@
   color: white;
 }
 
+header.MuiAppBar-colorPrimary {
+  background-color: #f13c20;
+  color: #fff;
+}
+
+header.MuiAppBar-colorPrimary.MuiTypography-h6 {
+  font-family: "Roboto Mono";
+}
+
+#root > div > div.makeStyles-root-1 > header > div > h6 {
+  font-family: "Roboto Mono";
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.HomeContentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.HomeHeader {
+  color: #f13c20;
+  font-family: "Roboto Mono";
+}
+
+.HomeContent {
+  width: 60%;
+  text-align: left;
 }
 
 @keyframes App-logo-spin {
